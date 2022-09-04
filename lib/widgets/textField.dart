@@ -13,13 +13,13 @@ TextField formTextField(String text, IconData icon, bool isPasswordType,
     decoration: InputDecoration(
       prefixIcon: Icon(
         icon,
-        color: Colors.red.withOpacity(0.8),
+        color: Colors.red.withOpacity(0.7),
       ),
       labelText: text,
       labelStyle: TextStyle(color: Colors.black.withOpacity(0.6)),
       filled: true,
       floatingLabelBehavior: FloatingLabelBehavior.never,
-      fillColor: Color.fromARGB(255, 111, 179, 102).withOpacity(0.5),
+      fillColor: Color.fromARGB(255, 111, 179, 102).withOpacity(0.2),
       border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(30.0),
           borderSide: const BorderSide(width: 0, style: BorderStyle.none)),

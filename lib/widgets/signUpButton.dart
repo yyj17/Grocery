@@ -10,8 +10,9 @@ Row signUpButton() {
           style: TextStyle(color: Colors.black38)),
       TextButton(
         child: const Text('Sign Up',
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold)),
-        onPressed: () => Get.to(() => SignUpPage),
+            style:
+                TextStyle(color: Colors.black54, fontWeight: FontWeight.bold)),
+        onPressed: () => Get.to(() => SignUpPage()),
       ),
     ],
   );

@@ -20,7 +20,7 @@ Container loginButton(BuildContext context, bool isLogin, Function onTap) {
             if (states.contains(MaterialState.pressed)) {
               return Colors.black;
             }
-            return Colors.red.withOpacity(0.6);
+            return Colors.red.withOpacity(0.3);
           }),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)))),

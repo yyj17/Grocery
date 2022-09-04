@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:grocery/pages/ResetPassword.dart';
 
 Widget forgetPassword(BuildContext context) {
   return Container(
@@ -13,7 +13,7 @@ Widget forgetPassword(BuildContext context) {
         style: TextStyle(color: Colors.black54),
         textAlign: TextAlign.right,
       ),
-      onPressed: () => Get.to(() => forgetPassword),
+      onPressed: () => Get.to(() => resetPassword()),
     ),
   );
 }
